@@ -1,0 +1,19 @@
+.line1, .line {
+  display: flex;
+  gap: 5px; /* Espace entre les éléments */
+  margin-bottom: 5px;
+  width: 300px; /* Ajustez cette largeur selon vos préférences */
+}
+
+#entree {
+  flex: 3;
+  resize: none; /* Empêche le redimensionnement manuel */
+  height: 40px;
+  font-size: 18px;
+}
+#division {
+  flex: 1;
+}
+.line button {
+  flex: 1;
+}
